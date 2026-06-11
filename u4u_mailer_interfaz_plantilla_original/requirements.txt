@@ -1,0 +1,2 @@
+# No requiere librerías externas.
+# Tkinter normalmente viene incluido con Python en Windows.
