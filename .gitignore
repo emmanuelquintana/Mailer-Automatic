@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.py.class
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Archivos generados por la app
+logs/*
+!logs/.gitkeep
+*.log
+*.tmp
+preview_*.png
+
+# Documentación y datos locales que no deben subirse
+README_EJECUTAR.md
+README_ADJUNTOS.txt
+*.html
+*.htm
+
+# Datos y archivos sensibles
+contactos.csv
+contactos2.csv
+adjuntos/*
+!adjuntos/.gitkeep
+
+# Editor / sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
